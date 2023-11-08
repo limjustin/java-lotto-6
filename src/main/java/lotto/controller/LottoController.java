@@ -17,4 +17,9 @@ public class LottoController {
         outputView.printInputPurchaseAmount();
         return lottoService.buy();
     }
+
+    public void show(int ticket) {
+        outputView.printShowLotto(ticket);
+        outputView.printLottos(lottoService.show(ticket));
+    }
 }
