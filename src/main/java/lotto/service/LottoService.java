@@ -51,7 +51,6 @@ public class LottoService {
     }
 
     public Lotto createLotto() {
-        Lotto lotto;
         List<Integer> numbers = new ArrayList<>();
 
         for(int i = 0; i < LOTTO_LENGTH; i++) {
