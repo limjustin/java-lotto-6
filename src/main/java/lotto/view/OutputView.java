@@ -18,4 +18,12 @@ public class OutputView {
         for(Lotto lotto : lottos)
             System.out.println(lotto.getNumbers());
     }
+
+    public void printInputWinningNumbers() {
+        System.out.println("\n당첨 번호를 입력해 주세요.");
+    }
+
+    public void printInputBonusNumber() {
+        System.out.println("\n보너스 번호를 입력해 주세요.");
+    }
 }
